@@ -11,8 +11,8 @@ LOGO CARRERA
 
 
 # Integrantes:
-- Janelly Dayanna Chacha Vélez 
-- Kelly Valeria Guaman León 
+- Janelly Dayanna Chacha Vélez - https://github.com/Dayanna-01
+- Kelly Valeria Guaman León - https://github.com/Valeria-g-l
 
 # Objetivos:
 
@@ -110,6 +110,7 @@ Estas tres notaciones definen formalmente los tres límites asintóticos esencia
 ### **Archivo:** `ComplejidadConstante.java`
 
 ### **Código del ejemplo**
+<<<<<<< HEAD
 ![alt text](assets/image-1.png)
 
 
@@ -177,6 +178,17 @@ Ideal para datos ordenados.
 
 ![alt text](assets/image-5.png)
 
+=======
+
+```java
+public void ejemplo() {
+    System.out.println("Ejemplo O(1)");
+    int x = 10;
+    int y = 5;
+    int suma = x + y;
+}
+```
+>>>>>>> 13809c7ffcf068bbe91f283df80fdc348b80a6a4
 
 ### **Explicación resumida**
 
@@ -184,15 +196,16 @@ Se combinan procesos lineales con divisiones logarítmicas.
 Es más rápido que O(n²) y más escalable para grandes volúmenes.
 
 ---
-
+**PARA CADA COMPLEJIDAD, REPETIR LA ESTRUCTURA ANTERIOR**
 
 
 # **Conclusiones**
 
 * ### Conclusion Janelly Dayanna Chacha Vélez
-Durante la práctica pude comprobar que las complejidades más costosas son las cuadráticas, como O(n²), porque incrementan el número de operaciones de forma muy rápida y hacen que el programa se vuelva lento cuando la entrada crece. Del análisis aprendí a identificar cómo cambia el tiempo de ejecución dependiendo del tipo de algoritmo y que no basta con que un código funcione: también debe ser eficiente. Algo que realmente me sorprendió fue ver que pequeñas modificaciones en el código afectan notablemente su complejidad. Esta experiencia me ayudó a comprender mejor por qué es tan importante estudiar la teoría antes de implementar una solución.
+A lo largo de la práctica, observé que las complejidades cuadráticas (como O(n²)) son las más costosas, ya que aumentan el número de operaciones con rapidez y ralentizan el programa cuando la entrada se expande. A partir del análisis, comprendí que el tiempo de ejecución varía en función del algoritmo y que un código no solo tiene que funcionar, sino también ser eficaz. Me sorprendió mucho ver cómo cambios menores en el código impactan significativamente su complejidad. Esta experiencia me permitió entender por qué es tan relevante estudiar la teoría antes de poner en marcha una solución.
+
 * ### Conclusion Kelly Valeria Guamán León
-En esta práctica entendí que la complejidad más costosa es aquella que crece de manera exponencial o cuadrática, ya que su rendimiento se deteriora con rapidez cuando aumentan los datos a procesar. El análisis me permitió aprender a comparar algoritmos y a reconocer cuáles son más adecuados según el problema. Me sorprendió mucho que algunos algoritmos que parecen simples tengan un comportamiento poco eficiente cuando se prueban con entradas grandes. En general, la práctica me permitió conectar la teoría de complejidad con ejemplos reales en Java y valorar la importancia de escribir código que no solo sea correcto, sino también escalable.
+Comprendí en este ejercicio que la complejidad más cara es la que se expande cuadrática o exponencialmente, porque su desempeño se deteriora rápidamente cuando los datos a procesar crecen. La evaluación me brindó la oportunidad de aprender a comparar algoritmos y distinguir cuáles son más apropiados según el problema. Me sorprendió bastante que ciertos algoritmos que parecen sencillos muestren una eficiencia baja al ser probados con entradas grandes. En términos generales, la práctica me facilitó enlazar ejemplos concretos en Java con la teoría de complejidad y apreciar lo importante que es redactar código escalable además de correcto.
 
 ---
 
