@@ -110,8 +110,7 @@ Estas tres notaciones definen formalmente los tres límites asintóticos esencia
 ### **Archivo:** `ComplejidadConstante.java`
 
 ### **Código del ejemplo**
-
-![alt text](image.png)
+![alt text](assets/image-1.png)
 
 
 ### **Explicación resumida**
@@ -127,7 +126,7 @@ Siempre se ejecuta en la misma cantidad de pasos.
 
 ### **Código del ejemplo**
 
-![alt text](image-1.png)
+![alt text](assets/image-2.png)
 
 
 ### **Explicación resumida**
@@ -143,7 +142,7 @@ Si hay 10 elementos, se hacen 10 operaciones.
 
 ### **Código del ejemplo**
 
-![alt text](image-2.png)
+![alt text](assets/image-3.png)
 
 
 ### **Explicación resumida**
@@ -159,7 +158,7 @@ Si hay n elementos, se hacen n × n operaciones.
 
 ### **Código del ejemplo**
 
-![alt text](image-3.png)
+![alt text](assets/image-4.png)
 
 
 ### **Explicación resumida**
@@ -176,7 +175,7 @@ Ideal para datos ordenados.
 
 ### **Código del ejemplo**
 
-![alt text](image-4.png)
+![alt text](assets/image-5.png)
 
 
 ### **Explicación resumida**
