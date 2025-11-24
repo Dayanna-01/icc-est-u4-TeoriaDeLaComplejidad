@@ -176,18 +176,6 @@ Ideal para datos ordenados.
 
 ![alt text](assets/image-5.png)
 
-=======
-
-```java
-public void ejemplo() {
-    System.out.println("Ejemplo O(1)");
-    int x = 10;
-    int y = 5;
-    int suma = x + y;
-}
-```
->>>>>>> 13809c7ffcf068bbe91f283df80fdc348b80a6a4
-
 ### **Explicación resumida**
 
 Se combinan procesos lineales con divisiones logarítmicas.
