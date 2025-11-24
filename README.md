@@ -130,9 +130,10 @@ public void ejemplo() {
 
 # **Conclusiones**
 
-*(Aquí el estudiante agrega conclusiones propias del trabajo)*
-
-**POR ESTUDIANTE**: *(Nombre completo del estudiante)*
+* ### Conclusion Janelly Dayanna Chacha Vélez
+Durante la práctica pude comprobar que las complejidades más costosas son las cuadráticas, como O(n²), porque incrementan el número de operaciones de forma muy rápida y hacen que el programa se vuelva lento cuando la entrada crece. Del análisis aprendí a identificar cómo cambia el tiempo de ejecución dependiendo del tipo de algoritmo y que no basta con que un código funcione: también debe ser eficiente. Algo que realmente me sorprendió fue ver que pequeñas modificaciones en el código afectan notablemente su complejidad. Esta experiencia me ayudó a comprender mejor por qué es tan importante estudiar la teoría antes de implementar una solución.
+* ### Conclusion Kelly Valeria Guamán León
+En esta práctica entendí que la complejidad más costosa es aquella que crece de manera exponencial o cuadrática, ya que su rendimiento se deteriora con rapidez cuando aumentan los datos a procesar. El análisis me permitió aprender a comparar algoritmos y a reconocer cuáles son más adecuados según el problema. Me sorprendió mucho que algunos algoritmos que parecen simples tengan un comportamiento poco eficiente cuando se prueban con entradas grandes. En general, la práctica me permitió conectar la teoría de complejidad con ejemplos reales en Java y valorar la importancia de escribir código que no solo sea correcto, sino también escalable.
 
 ---
 
