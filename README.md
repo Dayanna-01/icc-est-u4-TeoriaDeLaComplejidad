@@ -10,7 +10,7 @@
 
 # Integrantes:
 - Janelly Dayanna Chacha Vélez - https://github.com/Dayanna-01
-- Kelly Valeria Guaman León 
+- Kelly Valeria Guaman León - https://github.com/Valeria-g-l
 
 # Objetivos:
 
@@ -108,6 +108,75 @@ Estas tres notaciones definen formalmente los tres límites asintóticos esencia
 ### **Archivo:** `ComplejidadConstante.java`
 
 ### **Código del ejemplo**
+<<<<<<< HEAD
+![alt text](assets/image-1.png)
+
+
+### **Explicación resumida**
+
+El tiempo de ejecución no depende del tamaño de los datos. 
+Siempre se ejecuta en la misma cantidad de pasos.
+
+---
+
+## **2.2 Complejidad O(n) – Lineal**
+
+### **Archivo:** `ComplejidadLineal.java`
+
+### **Código del ejemplo**
+
+![alt text](assets/image-2.png)
+
+
+### **Explicación resumida**
+
+El tiempo de ejecución crece proporcionalmente al número de elementos. 
+Si hay 10 elementos, se hacen 10 operaciones.
+
+---
+
+## **2.3 Complejidad O(n^2) – Cuadratica**
+
+### **Archivo:** `ComplejidadCuadratica.java`
+
+### **Código del ejemplo**
+
+![alt text](assets/image-3.png)
+
+
+### **Explicación resumida**
+
+Cada elemento se compara con todos los demás.
+Si hay n elementos, se hacen n × n operaciones.
+
+---
+
+## **2.4 Complejidad O(log n) – Logartimica**
+
+### **Archivo:** `ComplejidadLogaritmica.java`
+
+### **Código del ejemplo**
+
+![alt text](assets/image-4.png)
+
+
+### **Explicación resumida**
+
+El conjunto se divide a la mitad en cada paso,
+reduciendo drásticamente el número de operaciones.
+Ideal para datos ordenados.
+
+---
+
+## **2.5 Complejidad O(n log n) – Lineal-Logaritmica**
+
+### **Archivo:** `ComplejidadNlogN.java`
+
+### **Código del ejemplo**
+
+![alt text](assets/image-5.png)
+
+=======
 
 ```java
 public void ejemplo() {
@@ -117,10 +186,12 @@ public void ejemplo() {
     int suma = x + y;
 }
 ```
+>>>>>>> 13809c7ffcf068bbe91f283df80fdc348b80a6a4
 
 ### **Explicación resumida**
 
-*(Aquí el estudiante explica por qué es O(1))*
+Se combinan procesos lineales con divisiones logarítmicas.
+Es más rápido que O(n²) y más escalable para grandes volúmenes.
 
 ---
 **PARA CADA COMPLEJIDAD, REPETIR LA ESTRUCTURA ANTERIOR**
