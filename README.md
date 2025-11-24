@@ -182,7 +182,6 @@ Se combinan procesos lineales con divisiones logarítmicas.
 Es más rápido que O(n²) y más escalable para grandes volúmenes.
 
 ---
-**PARA CADA COMPLEJIDAD, REPETIR LA ESTRUCTURA ANTERIOR**
 
 
 # **Conclusiones**
