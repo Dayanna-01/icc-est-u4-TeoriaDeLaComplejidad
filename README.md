@@ -111,86 +111,30 @@ Estas tres notaciones definen formalmente los tres límites asintóticos esencia
 
 ### **Código del ejemplo**
 
-![alt text](image.png)
-
-
-### **Explicación resumida**
-
-El tiempo de ejecución no depende del tamaño de los datos. 
-Siempre se ejecuta en la misma cantidad de pasos.
-
----
-
-## **2.2 Complejidad O(n) – Lineal**
-
-### **Archivo:** `ComplejidadLineal.java`
-
-### **Código del ejemplo**
-
-![alt text](image-1.png)
-
-
-### **Explicación resumida**
-
-El tiempo de ejecución crece proporcionalmente al número de elementos. 
-Si hay 10 elementos, se hacen 10 operaciones.
-
----
-
-## **2.3 Complejidad O(n^2) – Cuadratica**
-
-### **Archivo:** `ComplejidadCuadratica.java`
-
-### **Código del ejemplo**
-
-![alt text](image-2.png)
-
-
-### **Explicación resumida**
-
-Cada elemento se compara con todos los demás.
-Si hay n elementos, se hacen n × n operaciones.
-
----
-
-## **2.4 Complejidad O(log n) – Logartimica**
-
-### **Archivo:** `ComplejidadLogaritmica.java`
-
-### **Código del ejemplo**
-
-![alt text](image-3.png)
-
-
-### **Explicación resumida**
-
-El conjunto se divide a la mitad en cada paso,
-reduciendo drásticamente el número de operaciones.
-Ideal para datos ordenados.
-
----
-
-## **2.5 Complejidad O(n log n) – Lineal-Logaritmica**
-
-### **Archivo:** `ComplejidadNlogN.java`
-
-### **Código del ejemplo**
-
-![alt text](image-4.png)
-
+```java
+public void ejemplo() {
+    System.out.println("Ejemplo O(1)");
+    int x = 10;
+    int y = 5;
+    int suma = x + y;
+}
+```
 
 ### **Explicación resumida**
 
 *(Aquí el estudiante explica por qué es O(1))*
 
 ---
-
+**PARA CADA COMPLEJIDAD, REPETIR LA ESTRUCTURA ANTERIOR**
 
 
 # **Conclusiones**
 
 * ### Conclusion Janelly Dayanna Chacha Vélez
+A lo largo de la práctica, observé que las complejidades cuadráticas (como O(n²)) son las más costosas, ya que aumentan el número de operaciones con rapidez y ralentizan el programa cuando la entrada se expande. A partir del análisis, comprendí que el tiempo de ejecución varía en función del algoritmo y que un código no solo tiene que funcionar, sino también ser eficaz. Me sorprendió mucho ver cómo cambios menores en el código impactan significativamente su complejidad. Esta experiencia me permitió entender por qué es tan relevante estudiar la teoría antes de poner en marcha una solución.
+
 * ### Conclusion Kelly Valeria Guamán León
+Comprendí en este ejercicio que la complejidad más cara es la que se expande cuadrática o exponencialmente, porque su desempeño se deteriora rápidamente cuando los datos a procesar crecen. La evaluación me brindó la oportunidad de aprender a comparar algoritmos y distinguir cuáles son más apropiados según el problema. Me sorprendió bastante que ciertos algoritmos que parecen sencillos muestren una eficiencia baja al ser probados con entradas grandes. En términos generales, la práctica me facilitó enlazar ejemplos concretos en Java con la teoría de complejidad y apreciar lo importante que es redactar código escalable además de correcto.
 
 ---
 
