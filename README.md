@@ -181,7 +181,8 @@ Ideal para datos ordenados.
 
 ### **Explicación resumida**
 
-*(Aquí el estudiante explica por qué es O(1))*
+Se combinan procesos lineales con divisiones logarítmicas.
+Es más rápido que O(n²) y más escalable para grandes volúmenes.
 
 ---
 
