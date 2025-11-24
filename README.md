@@ -108,7 +108,7 @@ Estas tres notaciones definen formalmente los tres límites asintóticos esencia
 ### **Archivo:** `ComplejidadConstante.java`
 
 ### **Código del ejemplo**
-<<<<<<< HEAD
+
 ![alt text](assets/image-1.png)
 
 
