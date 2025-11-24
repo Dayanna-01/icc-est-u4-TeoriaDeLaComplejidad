@@ -65,21 +65,80 @@ En esta sección se presentan las clases creadas dentro del proyecto y el análi
 
 ### **Código del ejemplo**
 
-```java
-public void ejemplo() {
-    System.out.println("Ejemplo O(1)");
-    int x = 10;
-    int y = 5;
-    int suma = x + y;
-}
-```
+![alt text](image.png)
+
+
+### **Explicación resumida**
+
+El tiempo de ejecución no depende del tamaño de los datos. 
+Siempre se ejecuta en la misma cantidad de pasos.
+
+---
+
+## **2.2 Complejidad O(n) – Lineal**
+
+### **Archivo:** `ComplejidadLineal.java`
+
+### **Código del ejemplo**
+
+![alt text](image-1.png)
+
+
+### **Explicación resumida**
+
+El tiempo de ejecución crece proporcionalmente al número de elementos. 
+Si hay 10 elementos, se hacen 10 operaciones.
+
+---
+
+## **2.3 Complejidad O(n^2) – Cuadratica**
+
+### **Archivo:** `ComplejidadCuadratica.java`
+
+### **Código del ejemplo**
+
+![alt text](image-2.png)
+
+
+### **Explicación resumida**
+
+Cada elemento se compara con todos los demás.
+Si hay n elementos, se hacen n × n operaciones.
+
+---
+
+## **2.4 Complejidad O(log n) – Logartimica**
+
+### **Archivo:** `ComplejidadLogaritmica.java`
+
+### **Código del ejemplo**
+
+![alt text](image-3.png)
+
+
+### **Explicación resumida**
+
+El conjunto se divide a la mitad en cada paso,
+reduciendo drásticamente el número de operaciones.
+Ideal para datos ordenados.
+
+---
+
+## **2.5 Complejidad O(n log n) – Lineal-Logaritmica**
+
+### **Archivo:** `ComplejidadNlogN.java`
+
+### **Código del ejemplo**
+
+![alt text](image-4.png)
+
 
 ### **Explicación resumida**
 
 *(Aquí el estudiante explica por qué es O(1))*
 
 ---
-**PARA CADA COMPLEJIDAD, REPETIR LA ESTRUCTURA ANTERIOR**
+
 
 
 # **Conclusiones**
